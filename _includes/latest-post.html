@@ -5,7 +5,7 @@
                 <!--start video image-->
                 <div class="col-md-7">
                     <div class="video-img">
-                        <img src="{{ post.data.feature-image }}" class="img-fluid" alt="{{ post.data.title }}" />
+                        <img loading="lazy" src="/assets/images/{{ post.data.feature-image }}.webp" onerror="this.src='/assets/images/{{ post.data.feature-image }}.jp2'" class="img-fluid" alt="{{ post.data.title }}" />
                     </div>
                 </div>
                 <!--end video image-->
@@ -45,7 +45,7 @@
                 <!--start video content-->
                 <div class="col-md-7 order-1 order-md-2">
                     <div class="video-img">
-                        <img src="{{ post.data.feature-image }}" class="img-fluid" alt="{{ post.data.title }}" />
+                        <img loading="lazy" src="/assets/images/{{ post.data.feature-image }}.webp" onerror="this.src='/assets/images/{{ post.data.feature-image }}.jp2'" class="img-fluid" alt="{{ post.data.title }}" />
                     </div>
                 </div>
                 <!--end video content-->

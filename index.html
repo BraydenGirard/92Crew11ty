@@ -12,14 +12,14 @@ title: Home
             data-item-price="{{ product.data.price }}"
             data-item-url="/"
             data-item-description="{{ product.templateContent | strip_html }}"
-            data-item-image="{{ product.data.image }}"
+            data-item-image="/assets/images/{{ product.data.image }}.jpg"
             data-item-name="{{ product.data.title }}" data-item-custom1-name="Colour"
             data-item-custom1-options="White|Black|Yellow" href="#0"
             class="buy-btn snipcart-add-item"
             id="buy-btn-modal" style="display: block; width: 200px; margin: 0 auto; padding-top: 22px; padding-bottom: 22px; border-radius: 50px;">ADD TO CART</a>
         
         <a href="https://amazon.ca" target="_blank" style="margin: 15px 0 0 0; display: block; margin: 0 auto;">
-            <img src="/assets/images/amazon-buy.png" alt="Amazon buy Button" width="200" style="display: block; margin: 0 auto;"/>
+            <img loading="lazy" src="/assets/images/amazon-buy.webp" onerror="this.src='/assets/images/amazon-buy.jp2'" alt="Amazon buy Button" width="200" style="display: block; margin: 0 auto;"/>
         </a>
         </div>
         {% endif %}
@@ -37,7 +37,7 @@ title: Home
                 <!--start caption image-->
                 <div class="col-md-5">
                     <div class="caption-img">
-                        <img src="/assets/images/tape-slider.png" class="img-fluid" alt="Signature Yellow Crew Tape Roll" />
+                        <img loading="lazy" src="/assets/images/tape-slider.webp" onerror="this.src='/assets/images/tape-slider.jp2'" class="img-fluid" alt="Signature Yellow Crew Tape Roll" />
                     </div>
                 </div>
                 <!--end caption image-->
@@ -94,7 +94,7 @@ title: Home
             <!--start about image-->
             <div class="col-md-6">
                 <div class="about-img">
-                    <img src="/assets/images/about-tape.jpg" class="img-fluid" alt="About Crew Tape" />
+                    <img loading="lazy" src="/assets/images/about-tape.webp" onerror="this.src='/assets/images/about-tape.jp2'" class="img-fluid" alt="About Crew Tape" />
                 </div>
             </div>
             <!--end about image-->

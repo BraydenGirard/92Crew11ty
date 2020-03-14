@@ -18,7 +18,7 @@
         			<!--start product single-->
         			<div class="col-lg-4 col-md-6">
             			<div class="prod-single text-center">
-							 <img src="{{ product.data.image }}" class="img-fluid" alt="{{ product.data.title }}" />
+							 <img loading="lazy" src="/assets/images/{{ product.data.image }}.webp" onerror="this.src='/assets/images/{{ product.data.image }}.jp2'" class="img-fluid" alt="{{ product.data.title }}" />
                 			<!--picture {{ product.data.image }} --picture class="img-fluid" --alt {{ product.data.title }} --img loading="lazy"-->
                 			<div class="prod-info">
                     			<h4>{{ product.data.title }}</h4>
@@ -29,7 +29,7 @@
 									data-item-price="{{ product.data.price }}"
 									data-item-url="/"
 									data-item-description="{{ product.templateContent | strip_html }}"
-									data-item-image="{{ product.data.image }}"
+									data-item-image="/assets/images/{{ product.data.image }}.jpg"
 									data-item-name="{{ product.data.title }}"
 									data-item-custom1-name="Type"
 									data-item-custom1-options="Mens|Womens"
