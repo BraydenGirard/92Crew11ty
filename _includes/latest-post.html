@@ -1,0 +1,55 @@
+<section id="video-area">
+    <div id="featured-post" class="container">
+        <div class="row">
+            {% if side == 'left' %}
+                <!--start video image-->
+                <div class="col-md-7">
+                    <div class="video-img">
+                        <img src="{{ post.data.feature-image }}" class="img-fluid" alt="{{ post.data.title }}" />
+                    </div>
+                </div>
+                <!--end video image-->
+                <!--start video content-->
+                <div class="col-md-5">
+                    <div class="video-cont two">
+                        <h5>LATEST POST</h5>
+                        <h2>{{ post.data.title }}</h2>
+                        <p>{{ post.data.intro }}</p>
+                        <div class="hero-btn">
+                            <a href="{{ post.url }}" class="buy-btn">READ MORE</a>
+                            {% if page.title == "Home"%}
+                                <a href="/blog" id="more-info-btn-blog" style="color: #191919; border-color: #191919;">SEE
+                                ALL</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                <!--end video content-->
+            {% else %}
+                <!--start video image-->
+                <div class="col-md-5 order-2 order-md-1">
+                    <div class="video-cont two right-cont">
+                        <h5>LATEST POST</h5>
+                        <h2>{{ post.data.title }}</h2>
+                        <p>{{ post.data.intro }}</p>
+                        <div class="hero-btn">
+                            <a href="{{ post.url }}" class="buy-btn">READ MORE</a>
+                            {% if page.title == "Home"%}
+                                <a href="/blog" id="more-info-btn-blog" style="color: #191919; border-color: #191919;">SEE
+                                    ALL</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                <!--end video image-->
+                <!--start video content-->
+                <div class="col-md-7 order-1 order-md-2">
+                    <div class="video-img">
+                        <img src="{{ post.data.feature-image }}" class="img-fluid" alt="{{ post.data.title }}" />
+                    </div>
+                </div>
+                <!--end video content-->
+            {% endif %}
+        </div>
+    </div>
+</section>

@@ -1,0 +1,232 @@
+---
+layout: default
+title: Home
+---
+<div id="simpleModal_1" class="modal">
+    <div class="modal-window">
+        <h1>Select Retailer</h1>
+        {% for product in collections.product %}
+        {% if product.data.featured %}
+        <div class="hero-btn" style="display: block; margin: 0 auto; width: 100%;">
+        <a data-item-id="{{ product.data.identifier }}" 
+            data-item-price="{{ product.data.price }}"
+            data-item-url="/"
+            data-item-description="{{ product.templateContent | strip_html }}"
+            data-item-image="{{ product.data.image }}"
+            data-item-name="{{ product.data.title }}" data-item-custom1-name="Colour"
+            data-item-custom1-options="White|Black|Yellow" href="#0"
+            class="buy-btn snipcart-add-item"
+            id="buy-btn-modal" style="display: block; width: 200px; margin: 0 auto; padding-top: 22px; padding-bottom: 22px; border-radius: 50px;">ADD TO CART</a>
+        
+        <a href="https://amazon.ca" target="_blank" style="margin: 15px 0 0 0; display: block; margin: 0 auto;">
+            <img src="/assets/images/amazon-buy.png" alt="Amazon buy Button" width="200" style="display: block; margin: 0 auto;"/>
+        </a>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
+<!--start hero area-->
+<section id="hero-area" class="slider-bg"
+    style="background-image: url('/assets/images/banner.webp'), url('/assets/images/banner.jp2');"
+    data-scroll-index="0">
+    <div class="slider owl-carousel">
+        <!-- start slide single -->
+        <div class="slide-single container">
+            <div class="row">
+                <!--start caption image-->
+                <div class="col-md-5">
+                    <div class="caption-img">
+                        <img src="/assets/images/tape-slider.png" class="img-fluid" alt="Signature Yellow Crew Tape Roll" />
+                    </div>
+                </div>
+                <!--end caption image-->
+                <!--start caption content-->
+                <div class="col-md-7">
+                    <div class="caption">
+                        <img loading="lazy" src="/assets/images/half-logo.svg" style="width: 100px;" />
+                        <h1 class="text-white">Crew Tape<br />Signature Yellow</h1>
+                        <p class="text-white" style="font-size: 18px;">92Crew Tape sticks through long, hard workouts
+                            with its long lasting and proven adhesive. This tape can withstand even the toughest of
+                            WODs.</p>
+                        <div class="hero-btn">
+                            <a id="buy-btn-hero" href="#0" data-target="simpleModal_1" data-toggle="modal" class="buy-btn">ADD TO CART</a>
+                            <a href="#about-area" id="more-info-btn-hero">PRODUCT INFO</a>
+                        </div>
+                    </div>
+                </div>
+                <!--end caption content-->
+            </div>
+        </div>
+        <!-- end slide single -->
+    </div>
+</section>
+<!--end hero area-->
+<!--start about area-->
+<section id="about-area">
+    <div class="container">
+        <div class="row">
+            <!--start about content-->
+            <div class="col-md-6">
+                <div class="about-cont">
+                    <h5>ABOUT OUR TAPE</h5>
+                    <h2>More About Our<br />Athletic Tape</h2>
+                    <p>Our signature product is the Crew Tape, and it is our most efficient and durable tape that was
+                        made to be used during intense workouts. Use this tape during your WODs or heavy lifting.</p>
+                    <p>Crew Tape is also used in other sports and fitness activities including weightlifting,
+                        powerlifting, volleyball, boxing, wresting and many other activities.</p>
+                    <ul>
+                        <li><i class="icofont-check"></i> Super Durable Adhesive</li>
+                        <li><i class="icofont-check"></i> Tear And Friction Resistant</li>
+                        <li><i class="icofont-check"></i> Provides Superiour Grip</li>
+                    </ul>
+                    <div class="hero-btn">
+                        {% for product in site.products %}
+                        {% if product.data.featured %}
+                        <a data-target="simpleModal_1" data-toggle="modal" href="#0"
+                            class="buy-btn snipcart-add-item">ADD TO CART</a>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <!--end about content-->
+            <!--start about image-->
+            <div class="col-md-6">
+                <div class="about-img">
+                    <img src="/assets/images/about-tape.jpg" class="img-fluid" alt="About Crew Tape" />
+                </div>
+            </div>
+            <!--end about image-->
+        </div>
+    </div>
+</section>
+<!--end about area-->
+<!--start info area-->
+<section id="info-area" class="bg-gray">
+    <div class="container">
+        <div class="row">
+            <!--start feature single-->
+            <div class="col-md-4">
+                <div class="info-single">
+                    <span>01</span>
+                    <h4>Free Shipping</h4>
+                    <p>We offer free shipping on all of the products on our website. Whether you’re using our website or
+                        amazon, we offer free shipping.</p>
+                </div>
+            </div>
+            <!--end feature single-->
+            <!--start feature single-->
+            <div class="col-md-4">
+                <div class="info-single">
+                    <span>02</span>
+                    <h4>24/7 Support</h4>
+                    <p>Feel free to contact us at anytime with questions or concerns and we will get back to you as soon
+                        as possible.</p>
+                </div>
+            </div>
+            <!--end feature single-->
+            <!--start feature single-->
+            <div class="col-md-4">
+                <div class="info-single">
+                    <span>03</span>
+                    <h4>Product Guarantee</h4>
+                    <p>We have tested out many different materials to bring you the best product made to stick with you
+                        through the most intense workouts.</p>
+                </div>
+            </div>
+            <!--end feature single-->
+        </div>
+    </div>
+</section>
+<!--end info area-->
+<!--start video area-->
+<section id="video-area" class="bg-gray">
+    <div class="container">
+        <div class="row">
+            <!--start heading-->
+            <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                <div class="heading text-center">
+                    <h5>CUSTOMER VIDEOS</h5>
+                    <h2>Watch Our Product in Work<br />With our Clients</h2>
+                    <p>Check out videos of our customers using our tape during their workout. Our clients trust us
+                        during their workouts, and so should you.</p>
+                </div>
+            </div>
+            <!--end heading-->
+        </div>
+        <div class="row">
+            <!--start video plyer-->
+            <div class="col-md-10 offset-md-1">
+                <div class="video-player-wrap-two"
+                    style="background-image: url('/assets/images/video-art.webp'), url('/assets/images/video-art.jp2');">
+                    <div class="video-player d-table text-center">
+                        <div class="d-table-cell align-middle">
+                            <a class="popup-video" href="https://www.youtube.com/watch?v=clXBiR01kUM"><i
+                                    class="icofont-play" style="line-height: 80px;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end video plyer-->
+        </div>
+    </div>
+</section>
+<!--end video area-->
+
+{% include products.html %}
+
+{% for thepost in collections.post %}
+{% if thepost.data.featured %}
+{% include latest-post.html post: thepost side: 'left' %}
+{% endif %}
+{% endfor %}
+
+{% include newsletter.html %}
+
+<!--start faq area-->
+<section id="faq-area" class="bg-gray" data-scroll-index="3">
+    <div class="container">
+        <div class="row">
+            <!--start heading-->
+            <div class="col-lg-8 offset-lg-2">
+                <div class="heading text-center">
+                    <h5>FAQ</h5>
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Have questions? We’ve got answerd to the most frequesntly asked questions. From ordering
+                        information to return information and more.</p>
+                </div>
+            </div>
+            <!--end heading-->
+        </div>
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <div id="accordion" role="tablist" class="pr-0">
+                    <!--start faq single-->
+                    {% for faq in collections.faq %}
+                    <div id="accordion-card-{{ forloop.index }}" class="card two">
+                        <div class="card-header accordion-button {% if forloop.index == 1 %}active{% endif %}"
+                            role="tab" id="faq{{ forloop.index }}">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" href="#0" aria-expanded="true"
+                                    aria-controls="collapse1">{{ faq.data.title }}</a>
+                            </h5>
+                        </div>
+                        <div id="collapse{{ forloop.index }}"
+                            class="collapse {% if forloop.index == 1 %}show{% endif %}" role="tabpanel"
+                            aria-labelledby="faq{{ forloop.index }}" data-parent="#accordion">
+                            <div class="card-body">
+                                {{ faq.data.text }}
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    <!--end faq single-->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end faq area-->
+
+{% include contact.html %}

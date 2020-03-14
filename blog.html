@@ -1,0 +1,16 @@
+---
+layout: post
+title: Blog
+intro: |
+    Welcome to the 92Crew Fitness blog, below you will find stories, tips & tricks as well as guides 
+    to help you better your fitness.
+hero-image: why-crew-banner
+---
+{% for thepost in collections.post %}
+{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+{% if thecycle == 'odd' %}
+{% include latest-post.html post: thepost side: 'left' %}
+{% else %}
+{% include latest-post.html post: thepost side: 'right' %}
+{% endif %}
+{% endfor %}

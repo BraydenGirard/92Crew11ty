@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<!--start hero area-->
+<section id="hero-area"
+          style="background-image: url('/assets/images/{{ hero-image }}.webp'), url('/assets/images/{{ hero-image }}.jp2'); padding-bottom: 80px;"
+          class="slider-bg" data-scroll-index="0">
+    <div class="slider owl-carousel">
+        <!-- start slide single -->
+        <div class="slide-single container">
+            <div class="row">
+                <!--start caption content-->
+                <div class="col-md-8 offset-md-2">
+                    <div class="caption" style="text-align: center;">
+                        <img src="/assets/images/half-logo.svg" style="display: block; margin: 0 auto; width: 100px;"/>
+                        <h1 class="text-white">{{ title }}</h1>
+                        <p class="text-white">{{ intro }}</p>
+                    </div>
+                </div>
+                <!--end caption content-->
+            </div>
+        </div>
+        <!-- end slide single -->
+    </div>
+</section>
+<!--end hero area-->
+<section style="margin: 50px 0;">
+  <div class="row" style="margin-left: 0px; margin-right: 0px;">
+    <div class="col-md-8 offset-md-2">
+      {{ content }}
+    </div>
+  </div>
+</section>
+
+{% include newsletter.html %}
+
+{% include contact.html %}

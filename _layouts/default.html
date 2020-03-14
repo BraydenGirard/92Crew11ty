@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>{{ site.title }} - {{ page.title }}</title>
+    
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+    <!-- CSS -->
+    <link rel="preload" type="text/css" href="/assets/css/bootstrap.min.css" as="style">
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" media="print" onload="this.media='all'">
+    <link rel="preload" type="text/css" href="/assets/css/icofont.min.css" as="style">
+    <link rel="stylesheet" type="text/css" href="/assets/css/icofont.min.css" media="print" onload="this.media='all'">
+    <link rel="preload" type="text/css" href="/assets/css/style.css" as="style">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" media="print" onload="this.media='all'">
+    <link rel="preload" type="text/css" href="/assets/css/responsive.css" as="style">
+    <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css" media="print" onload="this.media='all'">
+</head>
+
+<body>
+    <!--start header-->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-md">
+                <div class="container">
+                    <!--logo-->
+                    <a class="logo" href="/"><img src="/assets/images/logo.svg" alt="logo" /></a>
+                    <button id="cart-mobile" class="snipcart-checkout snipcart-cart-header__option snipcart-cart-header__count snipcart__font--secondary snipcart__font--bold" style="border: none;"><svg viewBox="0 0 64 64" fill="#fff" xmlns="http://www.w3.org/2000/svg" alt="" title="" class="snipcart-cart-header__icon snipcart__icon" style="fill: #FFC12C !important;"><path style="fill: #FFC12C !important;" fill-rule="evenodd" clip-rule="evenodd" d="M51.714 20.47L55 60H9l3.286-39.53h9.857v-6.588C22.143 8.424 26.556 4 32 4c5.444 0 9.857 4.424 9.857 9.882v6.589h9.857zM25.43 13.883v16.47h-3.286v-6.587h-6.834l-2.737 32.94h38.856l-2.737-32.94h-6.834v6.588h-3.286v-16.47c0-3.634-2.947-6.589-6.571-6.589-3.624 0-6.571 2.955-6.571 6.588zm3.285 9.883V20.47h6.572v3.294h-6.572z" fill="#fff"></path></svg><div style="color: #FFC12C; margin-left: 3px; display: inline-block;" class="snipcart-items-count"></div></button>
+                    <button id="mobile-nav-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"><i class="icofont-navigation-menu"></i></span>
+                    </button>
+                    <!--navbar links-->
+                    <div class="collapse navbar-collapse" id="navbarContent">
+                        <ul class="navbar-nav ml-auto" id="navbarLinks">
+                            <li class="nav-item">
+                                <a id="merch-link" class="nav-link" href="/#product-area">Merch</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="faq-link" class="nav-link" href="/#faq-area">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="contact-link" class="nav-link" href="/#contact-area">Contact</a>
+                            </li>
+                            <!--
+                            <li class="nav-item">
+                              <div class="hero-btn" style="display: inline;">
+                      	        <a href="#" class="buy-btn" style="padding: 10px 30px;">BUY NOW</a>
+                      	      </div>
+                            </li>
+                            -->
+                            <button id="cart-desktop" class="snipcart-checkout snipcart-cart-header__option snipcart-cart-header__count snipcart__font--secondary snipcart__font--bold" style="border: none;"><svg viewBox="0 0 64 64" fill="#fff" xmlns="http://www.w3.org/2000/svg" alt="" title="" class="snipcart-cart-header__icon snipcart__icon" style="fill: #FFC12C !important;"><path style="fill: #FFC12C !important;" fill-rule="evenodd" clip-rule="evenodd" d="M51.714 20.47L55 60H9l3.286-39.53h9.857v-6.588C22.143 8.424 26.556 4 32 4c5.444 0 9.857 4.424 9.857 9.882v6.589h9.857zM25.43 13.883v16.47h-3.286v-6.587h-6.834l-2.737 32.94h38.856l-2.737-32.94h-6.834v6.588h-3.286v-16.47c0-3.634-2.947-6.589-6.571-6.589-3.624 0-6.571 2.955-6.571 6.588zm3.285 9.883V20.47h6.572v3.294h-6.572z" fill="#fff"></path></svg><div style="color: #FFC12C; margin-left: 3px; display: inline-block;" class="snipcart-items-count"></div></button>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--end header-->
+    {{ content }}
+    <!--start footer-->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <!--start footer content-->
+                <div class="col-lg-12">
+                    <div class="footer-cont text-center">
+                        <img src="/assets/images/logo.svg" class="img-fluid" alt="" />
+                        <h4>Follow Us</h4>
+                        <ul>
+                            <li><a href="https://facebook.com/92crewfitness" target="_blank"><i class="icofont-facebook" style="line-height: 45px;"></i></a></li>
+                            <li><a href="https://instagram.com/92crewfitness" target="_blank"><i class="icofont-instagram" style="line-height: 45px;"></i></a></li>
+                        </ul>
+                        <p>&copy; Copyright 2020. All Rights Reserved By <a target="_blank" href="https://92crew.com">92Crew Fitness</a></p>
+                    </div>
+                </div>
+                <!--end footer content-->
+            </div>
+        </div>
+    </footer>
+    <!--end footer-->
+
+    <!--main js-->
+    <div hidden id="snipcart" data-api-key="Yjk1ZTZkNWYtOTU4Ni00MzYzLWI4YzMtNjYyMDFhMTdiOWM2NjM3MTc2NDM2OTg0NTQ4NjE4"></div>
+    <script async src="/assets/js/custom.js"></script>
+</body>
+</html>

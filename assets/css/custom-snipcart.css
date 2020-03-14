@@ -1,0 +1,30 @@
+.snipcart-modal__container {
+    z-index:100;
+}
+.snipcart-cart-header {
+    padding-top: 35px;
+}
+.snipcart__icon--blue-light path {
+    fill: #FFC12C;
+}
+
+.snipcart__icon--blue-dark path {
+    fill: #FFC12C;
+}
+
+.snipcart-cart-header__count {
+    color: #FFC12C;
+}
+
+.snipcart-cart-header__close-button {
+    color: #FFC12C;
+}
+
+#cart-desktop, #cart-mobile {
+    background-color: transparent;
+    display: inline-block;
+}
+
+#cart-mobile {
+    display: none;
+}
