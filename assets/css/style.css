@@ -289,6 +289,9 @@ img {
     padding-left: 50px;
 }
 
+.video-player {
+    background-color: rgba(0,0,0,0.5);
+}
 .video-cont h5 {
     color: #FFC12C;
     font-weight: 600;
