@@ -1,9 +1,9 @@
 ---
 identifier: 92crew-tape
-title: Crew Tape
-image: tape
-price: 19.95
+title: Crew Tape 2-Pack
+image: product-tape
+price: 14.95
 featured: true
 tags: product
 ---
-Tape that sticks through the sweatiest of workouts.
+A premium athletic tape that sticks through the sweatiest of workouts. This product is sold in packs of 2... you need 2 for a Crew!
