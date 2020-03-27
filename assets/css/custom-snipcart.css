@@ -36,3 +36,7 @@
 .snipcart-discount-box__submit {
     color: #FFC12C;
 }
+
+.snipcart-cart-summary-fees__discounts-icon path {
+    fill: #FFC12C;   
+}
