@@ -48,3 +48,7 @@
 .snipcart-cart-button--highlight {
     background-image: linear-gradient(90deg,#FFCC56,#FFC12C);
 }
+
+.snipcart-item-quantity__button path {
+    fill:  #FFC12C;
+}
