@@ -28,3 +28,7 @@
 #cart-mobile {
     display: none;
 }
+
+.snipcart-discount-box__form {
+    border: 1px solid #FFC12C;
+}
