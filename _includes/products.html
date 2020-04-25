@@ -5,14 +5,42 @@
             <!--start heading-->
             <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                 <div class="heading text-center">
-                    <h5>OUR MERCH</h5>
-                    <h2>Join The 92Crew With Our<br/>New Gear</h2>
-                    <p>An exclusive collection of 92Crew attire, featuring our athletic hoodies, t-shirts, and bags. Order now to support a great company that will support you.</p>
+                    <h5>OUR PRODUCTS</h5>
+                    <h2>Join The 92Crew</h2>
+                    <p>An exclusive collection of 92Crew attire, featuring athletic t-shirts for men and women. Order now to support a great company that will support you.</p>
                 </div>
             </div>
             <!--end heading-->
         </div>
         <div class="row">
+		{% for product in collections.product %}
+        {% if product.data.featured %}
+		        			<div class="col-lg-4 col-md-6">
+            			<div class="prod-single text-center">
+							 <img loading="lazy" src="/assets/images/{{ product.data.image }}.webp" onerror="this.src='/assets/images/{{ product.data.image }}.jp2'" class="img-fluid" alt="{{ product.data.title }}" />
+        <div class="prod-info">
+                    			<h4>{{ product.data.title }}</h4>
+                    			<h5>${{	product.data.price }}</h5>
+                    			<div class="hero-btn" style="margin-top: 0px;">
+	<a data-item-id="{{ product.data.identifier }}" 
+            data-item-price="{{ product.data.price }}"
+            data-item-weight="{{ product.data.weight }}"
+            data-item-url="/"
+            data-item-description="{{ product.templateContent | strip_html }}"
+            data-item-image="/assets/images/{{ product.data.image }}.jpg"
+            data-item-name="{{ product.data.title }}" 
+	    data-item-custom1-name="Colour"
+            data-item-custom1-options="White|Black"
+            href="#0" 
+	    class="buy-btn snipcart-add-item">
+		ADD TO CART
+	    </a>
+        	</div>
+                			</div>
+            			</div>
+        			</div>
+		{% endif %}
+		{% endfor %}
         	{% for product in collections.product %}
         		{% unless product.data.featured %}
         			<!--start product single-->
@@ -31,10 +59,8 @@
 									data-item-description="{{ product.templateContent | strip_html }}"
 									data-item-image="/assets/images/{{ product.data.image }}.jpg"
 									data-item-name="{{ product.data.title }}"
-									data-item-custom1-name="Type"
-									data-item-custom1-options="Mens|Womens"
 									data-item-custom2-name="Size"
-									data-item-custom2-options="Small|Medium|Large" 
+									data-item-custom2-options="Small|Medium|Large|X-Large" 
 									href="#0" class="buy-btn snipcart-add-item">ADD TO CART</a>
                 				</div>
                 			</div>
