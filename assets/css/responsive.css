@@ -703,3 +703,9 @@
         padding: 13px 40px;
     }
 }
+
+@media only screen and (max-width: 375px) {
+ .hero-btn #buy-btn-hero {
+     margin-bottom: 15px;
+    }
+}
