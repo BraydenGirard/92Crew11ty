@@ -15,18 +15,13 @@ title: Home
             data-item-description="{{ product.templateContent | strip_html }}"
             data-item-image="/assets/images/{{ product.data.image }}.jpg"
             data-item-name="{{ product.data.title }}" data-item-custom1-name="Colour"
-            data-item-custom1-options="Chalk White|Mat Black" href="#0"
-            data-item-weight="187"
-            data-item-length="7"
-            data-item-height="8"
-            data-item-width="7"
+            data-item-custom1-options="White|Black" href="#0"
             class="buy-btn snipcart-add-item"
             id="buy-btn-modal" style="display: block; width: 200px; margin: 0 auto; padding-top: 22px; padding-bottom: 22px; border-radius: 50px;">BUY HERE</a>
         
-        <a target="_blank" style="margin: 15px 0 0 0; display: block; margin: 0 auto;">
-            <img loading="lazy" src="/assets/images/amazon-buy.webp" onerror="this.src='/assets/images/amazon-buy.jp2'" alt="Amazon buy Button" width="200" style="display: block; margin: 0 auto; filter: brightness(50%);"/>
+        <a target="_blank" href="" style="margin: 15px 0 0 0; display: block; margin: 0 auto;">
+            <img loading="lazy" src="/assets/images/amazon-buy.webp" onerror="this.src='/assets/images/amazon-buy.jp2'" alt="Amazon buy Button" width="200" style="display: block; margin: 0 auto;"/>
         </a>
-        <p>Amazon Coming Soon!</p>
         </div>
         {% endif %}
         {% endfor %}
