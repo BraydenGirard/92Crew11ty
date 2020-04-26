@@ -1,7 +1,7 @@
 ---
 identifier: 92crew-tape
 title: Crew Tape 2-Pack
-image: product-tape
+image: white-tape
 price: 19.95
 weight: 200
 featured: true

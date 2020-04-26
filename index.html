@@ -13,6 +13,9 @@ title: Home
             data-item-weight="{{ product.data.weight }}"
             data-item-url="/"
             data-item-description="{{ product.templateContent | strip_html }}"
+            data-item-max-quantity="5"
+            data-item-taxable="false"
+            data-item-shippable="true"
             data-item-image="/assets/images/{{ product.data.image }}.jpg"
             data-item-name="{{ product.data.title }}" data-item-custom1-name="Colour"
             data-item-custom1-options="White|Black" href="#0"
@@ -39,8 +42,8 @@ title: Home
                 <div class="col-md-5">
                     <div class="caption-img">
                         <picture>
-                            <source srcset="/assets/images/tape-slider.webp" type="image/webp">
-                            <img class="img-fluid" losing="lazy" src="tape-slider.png" alt="Crew Tape">
+                            <source srcset="/assets/images/white-tape.webp" type="image/webp">
+                            <img class="img-fluid" losing="lazy" src="white-tape.png" alt="Crew Tape">
                         </picture>
                     </div>
                 </div>
