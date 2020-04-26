@@ -13,20 +13,18 @@ title: Home
             data-item-weight="{{ product.data.weight }}"
             data-item-url="/"
             data-item-description="{{ product.templateContent | strip_html }}"
+            data-item-max-quantity="5"
+            data-item-taxable="false"
+            data-item-shippable="true"
             data-item-image="/assets/images/{{ product.data.image }}.jpg"
             data-item-name="{{ product.data.title }}" data-item-custom1-name="Colour"
-            data-item-custom1-options="Chalk White|Mat Black" href="#0"
-            data-item-weight="187"
-            data-item-length="7"
-            data-item-height="8"
-            data-item-width="7"
+            data-item-custom1-options="White|Black" href="#0"
             class="buy-btn snipcart-add-item"
             id="buy-btn-modal" style="display: block; width: 200px; margin: 0 auto; padding-top: 22px; padding-bottom: 22px; border-radius: 50px;">BUY HERE</a>
         
-        <a target="_blank" style="margin: 15px 0 0 0; display: block; margin: 0 auto;">
-            <img loading="lazy" src="/assets/images/amazon-buy.webp" onerror="this.src='/assets/images/amazon-buy.jp2'" alt="Amazon buy Button" width="200" style="display: block; margin: 0 auto; filter: brightness(50%);"/>
+        <a target="_blank" href="https://www.amazon.ca/s/?keywords=athletic+tape&ie=UTF8&field-asin=B085W6ZGNR&rh=i:aps,ssx:relevance" style="margin: 15px 0 0 0; display: block; margin: 0 auto;">
+            <img loading="lazy" src="/assets/images/amazon-buy.webp" onerror="this.src='/assets/images/amazon-buy.jp2'" alt="Amazon buy Button" width="200" style="display: block; margin: 0 auto;"/>
         </a>
-        <p>Amazon Coming Soon!</p>
         </div>
         {% endif %}
         {% endfor %}
@@ -44,13 +42,16 @@ title: Home
                 <!--
                 <div class="">
                     <div class="caption-img">
-                        <img loading="lazy" src="/assets/images/tape-slider.webp" onerror="this.src='/assets/images/tape-slider.jp2'" class="img-fluid" alt="Signature Yellow Crew Tape Roll" />
+                        <picture>
+                            <source srcset="/assets/images/white-tape.webp" type="image/webp">
+                            <img class="img-fluid" loading="lazy" src="assets/images/white-tape.png" alt="Crew Tape">
+                        </picture>
                     </div>
                 </div>
 -->
                 <!--end caption image-->
-                <!--start caption content-->
-                <div class="col-sm-12 col-md-8 offset-md-2">
+                <!--start caption content! -->
+                <div class="col-md-7">
                     <div class="caption">
                         <img loading="lazy" src="/assets/images/half-logo.svg" style="width: 100px; display: block; margin: 0 auto;" />
                         <h1 class="text-white" style="text-align: center;">Launching April 26th!</h1>
@@ -122,9 +123,13 @@ title: Home
             <div class="col-md-4">
                 <div class="info-single">
                     <span>01</span>
+                    <!--
                     <h4>Canada Wide Free Shipping</h4>
                     <p>We offer free shipping on all of the products on our website. Whether you’re using our website or
                         amazon, we offer free shipping.</p>
+                    -->
+                    <h4>COVID-19 Shipping Status</h4>
+                    <p>We normally offer free shipping on all of the products on our website as well as on Amazon. Due to COVID-19 we unfortunately are not able to offer free shipping at this time.</p>
                 </div>
             </div>
             <!--end feature single-->
