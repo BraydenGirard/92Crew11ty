@@ -1,6 +1,6 @@
 ---
 identifier: checkout-button-sku_HCD76TQXpRaiil
-title: 92Crew Mens T-Shirt
+title: 92Crew Mens T
 image: men-t
 price: 29.95
 tags: product
