@@ -22,7 +22,7 @@
                     			<h4>{{ product.data.title }}</h4>
                     			<h5>${{	product.data.price }}</h5>
                     			<div class="hero-btn" style="margin-top: 0px;">
-	<a id="buy-btn-hero" href="#0" data-target="simpleModal_1" data-toggle="modal" class="buy-btn">ADD TO CART</a>
+	<a id="buy-btn-hero" href="https://www.amazon.ca/s/?keywords=athletic+tape&ie=UTF8&field-asin=B085W6FC38&rh=i:aps,ssx:relevance" class="buy-btn">BUY ON AMAZON</a>
         	</div>
                 			</div>
             			</div>
@@ -40,18 +40,8 @@
                     			<h4>{{ product.data.title }}</h4>
                     			<h5>${{	product.data.price }}</h5>
                     			<div class="hero-btn" style="margin-top: 0px;">
-									<a 
-									data-item-id="{{ product.data.identifier }}"
-									data-item-price="{{ product.data.price }}"
-									data-item-url="/"
-									data-item-description="{{ product.templateContent | strip_html }}"
-									data-item-image="/assets/images/{{ product.data.image }}.jpg"
-									data-item-name="{{ product.data.title }}"
-									data-item-custom2-name="Size"
-									data-item-custom2-options="Small|Medium|Large|X-Large"
-									data-item-shippable="false"
-									data-item-taxable="false" 
-									href="#0" class="buy-btn snipcart-add-item">ADD TO CART</a>
+						<a id="{{ product.data.identifier }}" class="buy-btn" role="link">BUY NOW</a>
+						<div id="error-message"></div>
                 				</div>
                 			</div>
             			</div>

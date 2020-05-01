@@ -1,9 +1,8 @@
 ---
-identifier: 92crew-men-t
-title: 92Crew Mens T-Shirt
+identifier: checkout-button-sku_HCD76TQXpRaiil
+title: 92Crew Mens T
 image: men-t
-price: 34.95
-weight: 200
+price: 29.95
 tags: product
 ---
 A premium t-shirt printed directed to garmet for high quality design and long lasting material. Shirt material is a blend so soft to touch and shapes well to the body.

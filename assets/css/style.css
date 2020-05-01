@@ -126,6 +126,15 @@ img {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
 
+#header.sticky-forever {
+    position: fixed;
+    z-index: 999;
+    background-color: rgba(25,25,25,0.97);
+    padding: 16px 0;
+    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
 .navbar-nav .nav-link {
     color: #fff;
     font-weight: 600;
@@ -782,4 +791,8 @@ img {
 
 .open {
     display: block;
+}
+
+.prod-single .buy-btn:hover {
+    cursor: pointer;
 }

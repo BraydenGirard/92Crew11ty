@@ -2,34 +2,6 @@
 layout: default
 title: Home
 ---
-<div id="simpleModal_1" class="modal">
-    <div class="modal-window">
-        <h1>Select Retailer</h1>
-        {% for product in collections.product %}
-        {% if product.data.featured %}
-        <div class="hero-btn" style="display: block; margin: 0 auto; width: 100%;">
-        <a data-item-id="{{ product.data.identifier }}" 
-            data-item-price="{{ product.data.price }}"
-            data-item-weight="{{ product.data.weight }}"
-            data-item-url="/"
-            data-item-description="{{ product.templateContent | strip_html }}"
-            data-item-max-quantity="5"
-            data-item-taxable="false"
-            data-item-shippable="true"
-            data-item-image="/assets/images/{{ product.data.image }}.jpg"
-            data-item-name="{{ product.data.title }}" data-item-custom1-name="Colour"
-            data-item-custom1-options="White|Black" href="#0"
-            class="buy-btn snipcart-add-item"
-            id="buy-btn-modal" style="display: block; width: 200px; margin: 0 auto; padding-top: 22px; padding-bottom: 22px; border-radius: 50px;">BUY HERE</a>
-        
-        <a target="_blank" href="https://www.amazon.ca/s/?keywords=athletic+tape&ie=UTF8&field-asin=B085W6ZGNR&rh=i:aps,ssx:relevance" style="margin: 15px 0 0 0; display: block; margin: 0 auto;">
-            <img loading="lazy" src="/assets/images/amazon-buy.webp" onerror="this.src='/assets/images/amazon-buy.jp2'" alt="Amazon buy Button" width="200" style="display: block; margin: 0 auto;"/>
-        </a>
-        </div>
-        {% endif %}
-        {% endfor %}
-    </div>
-</div>
 <!--start hero area-->
 <section id="hero-area" class="slider-bg"
     style="background-image: url('/assets/images/banner.webp'), url('/assets/images/banner.jp2');"
@@ -60,7 +32,7 @@ title: Home
                             WODs.</p>
                         <!--
                         <div class="hero-btn">
-                            <a id="buy-btn-hero" href="#0" data-target="simpleModal_1" data-toggle="modal" class="buy-btn">ADD TO CART</a>
+                            <a id="buy-btn-hero" href="https://www.amazon.ca/s/?keywords=athletic+tape&ie=UTF8&field-asin=B085W6FC38&rh=i:aps,ssx:relevance" class="buy-btn">BUY ON AMAZON</a>
                             <a href="#about-area" id="more-info-btn-hero">PRODUCT INFO</a>
                         </div>
                         -->
@@ -247,3 +219,6 @@ title: Home
 <!--end faq area-->
 
 {% include contact.html %}
+
+<script defer src="https://js.stripe.com/v3"></script>
+<script defer src="/assets/js/stripe.js"></script>
