@@ -64,3 +64,13 @@ let player = document.getElementById("video-player");
 playButton.addEventListener( "click", function() {
         player.innerHTML = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/8q3vHeOFfuw?autoplay=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 });
+
+if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+        if (!user) {
+        window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+        });
+        }
+    });
+}

@@ -1,0 +1,18 @@
+publish_mode: "editorial_workflow"
+media_folder: "assets/images/uploads"
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Tags", name: "tags", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Intro", name: "intro", widget: "string"}
+      - {label: "Feature Image", name: "feature-image", widget: "image" }
+      - {label: "Hero Image", name: "hero-image", widget: "image" }
+      - {label: "Date", name: "date", widget: "datetime" }
+      - {label: "Featured", name: "featured", widget: "boolean" }
+      - {label: "Body", name: "body", widget: "markdown"}
