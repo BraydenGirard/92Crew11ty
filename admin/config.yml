@@ -3,6 +3,9 @@ backend:
   branch: master
 publish_mode: "editorial_workflow"
 media_folder: "assets/images/uploads"
+logo_url: "logo.png"
+site_url: https://92crew.com
+display_url: https://92crew.com
 collections:
   - name: "blog"
     label: "Blog"
