@@ -38,8 +38,14 @@
                 			<!--picture {{ product.data.image }} --picture class="img-fluid" --alt {{ product.data.title }} --img loading="lazy"-->
                 			<div class="prod-info">
                     			<h4>{{ product.data.title }}</h4>
-                    			<h5>${{	product.data.price }}</h5>
-                    			<div class="hero-btn" style="margin-top: 0px;">
+								<h5>${{	product.data.price }}</h5>
+								<select id="size-{{ product.data.identifier }}" style="height: 30px; width: 100px;">
+									<option value="{{ product.data.medium-sku }}">Medium</option>
+									<option value="{{ product.data.small-sku }}">Small</option>
+									<option value="{{ product.data.large-sku }}">Large</option>
+								</select>
+								<div class="hero-btn" style="margin-top: 0px;">
+									
 						<a id="{{ product.data.identifier }}" class="buy-btn" role="link">BUY NOW</a>
 						<div id="error-message"></div>
                 				</div>

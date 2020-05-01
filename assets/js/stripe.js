@@ -5,8 +5,9 @@
   checkoutButton.addEventListener('click', function () {
     // When the customer clicks on the button, redirect
     // them to Checkout.
+    let sku = document.getElementById("size-checkout-button-sku_HCD6c1zPXPZH83").value;
     stripe.redirectToCheckout({
-      items: [{sku: 'sku_HCD6c1zPXPZH83', quantity: 1}],
+      items: [{sku: sku, quantity: 1}],
 
       // Do not rely on the redirect to the successUrl for fulfilling
       // purchases, customers may not always reach the success_url after
@@ -15,6 +16,9 @@
       // https://stripe.com/docs/payments/checkout/fulfillment
       successUrl: window.location.protocol + '//92crew.com/success',
       cancelUrl: window.location.protocol + '//92crew.com/canceled',
+      shippingAddressCollection: {
+        allowedCountries: ['US', 'CA'],
+      }
     })
     .then(function (result) {
       if (result.error) {
@@ -30,8 +34,9 @@
   checkoutButton2.addEventListener('click', function () {
     // When the customer clicks on the button, redirect
     // them to Checkout.
+    let sku = document.getElementById("size-checkout-button-sku_HCD76TQXpRaiil").value;
     stripe.redirectToCheckout({
-      items: [{sku: 'sku_HCD76TQXpRaiil', quantity: 1}],
+      items: [{sku: sku, quantity: 1}],
 
       // Do not rely on the redirect to the successUrl for fulfilling
       // purchases, customers may not always reach the success_url after
@@ -40,6 +45,9 @@
       // https://stripe.com/docs/payments/checkout/fulfillment
       successUrl: window.location.protocol + '//92crew.com/success',
       cancelUrl: window.location.protocol + '//92crew.com/canceled',
+      shippingAddressCollection: {
+        allowedCountries: ['US', 'CA'],
+      }
     })
     .then(function (result) {
       if (result.error) {
