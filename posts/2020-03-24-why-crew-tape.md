@@ -1,9 +1,9 @@
 ---
 title: "Why would I use Crew Tape for Crossfit"
 layout: post
-feature-image: featured-post-img
+feature-image: /assets/images/featured-post-img.jpg
 intro: "92Crew Fitness was founded out of necessity. As an entrepreneur when you have a problem of your own, you solve it. This is exactly how 92Crew Fitness came to be."
-hero-image: why-crew-banner
+hero-image: /assets/images/why-crew-banner.jpg
 featured: true
 tags: post
 ---
