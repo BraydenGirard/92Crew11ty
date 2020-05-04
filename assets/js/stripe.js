@@ -30,11 +30,11 @@
     });
   });
     
-  var checkoutButton2 = document.getElementById('checkout-button-sku_HCD76TQXpRaiil');
+  var checkoutButton2 = document.getElementById('checkout-button-sku_HCOKmyzH0uaMW1');
   checkoutButton2.addEventListener('click', function () {
     // When the customer clicks on the button, redirect
     // them to Checkout.
-    let sku = document.getElementById("size-checkout-button-sku_HCD76TQXpRaiil").value;
+    let sku = document.getElementById("size-checkout-button-sku_HCOKmyzH0uaMW1").value;
     stripe.redirectToCheckout({
       items: [{sku: sku, quantity: 1}],
 
