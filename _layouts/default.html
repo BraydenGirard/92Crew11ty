@@ -33,7 +33,16 @@
     <meta name="twitter:image" content="{% if site.tw-meta-image != '' %}{{ site.tw-meta-image }}{% else %}/assets/images/about-tape.jpg{% endif %}">
     <meta name="twitter:card" content="{% if site.tw-meta-card != '' %}{{ site.tw-meta-card }}{% else %}summary_large_image{% endif %}">
 
-    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-103782980-5">
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-103782980-5');
+    </script>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 
