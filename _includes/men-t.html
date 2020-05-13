@@ -21,8 +21,7 @@
   }
   function ShopifyBuyInit() {
     var client = ShopifyBuy.buildClient({
-      //domain: '92crew-fitness.myshopify.com',
-      domain: 'shop.92crew.com',
+      domain: '92crew-fitness.myshopify.com',
       storefrontAccessToken: '2614573e62e4a08a5cfa3937f207cfe8',
     });
     ShopifyBuy.UI.onReady(client).then(function (ui) {
