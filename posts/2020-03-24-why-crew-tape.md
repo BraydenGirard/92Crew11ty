@@ -44,6 +44,8 @@ Now like everything, athletic tape can’t only have pros, so what are the cons?
 
 ## Welcome to Crew Tape
 
+![92 crew athletic tape](/assets/images/uploads/about-tape.jpg)
+
 Crew tape will be 92Crew Fitness’s first product offering. A premium role of tape designed specifically for use during high intensity training in activities such as Crossfit or functional fitness. Crew tape has been designed to stick through the sweatiest workouts, it’s priced competitively and you will be able to find it online with free shipping straight to your door.
 
 It’s time for you to join the crew!
