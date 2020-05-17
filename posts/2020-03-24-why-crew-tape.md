@@ -36,6 +36,8 @@ Several companies have come out with one time use protection that typically will
 
 ### Athletic Tape - Hand Tape for Crossfit
 
+![crossfit tape](/assets/images/uploads/img_0391.jpg)
+
 Before we get into talking about how athletic tape is great for the hands in Crossfit, let me say that it’s not for everyone. Some people will try athletic tape and much prefer one of the previous solutions such as grips or one time protection and that is fine. For those of us who enjoy using tape or are not happy with grips and one-time use solutions but are still looking for something, we are speaking to you. If you have used athletic tape before you know how great it can be but you are probably also aware of some of the  downfalls of many brands.
 
 Athletic tape applied properly to your hands in Crossfit can make a tremendous difference in how you can grip the bar. Because cotton tape is thin and fits to the contours of every individuals hands, you can grip the bar like you naturally would. By having your full grip strength you are able to endure longer repetitive motions without fatigue. The thin layer of tape is still durable enough to act as an extra layer of skin which protects from nasty tears or blisters. It even works great over existing blisters or tears with a band-aid beneath. An important part of using tape for maximum benefit involves knowing how to tape your hands for Crossfit. In future blogs posts we will be providing more information on this topic.
