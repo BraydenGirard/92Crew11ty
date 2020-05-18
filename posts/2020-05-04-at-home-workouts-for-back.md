@@ -2,6 +2,11 @@
 layout: post
 tags: post
 title: At Home Workouts for Back
+description: When working out from home you typically will not have the guidance of a
+  coach or personal trainer to help ensure that you are doing the correct
+  exercises to benefit the muscle groups you are hoping to target. In this
+  article we will try to give you some tips on workouts that you can focus on if
+  you are looking to specifically target you back muscles. 
 intro: When working out from home you typically will not have the guidance of a
   coach or personal trainer to help ensure that you are doing the correct
   exercises to benefit the muscle groups you are hoping to target. In this
