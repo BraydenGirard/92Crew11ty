@@ -4,7 +4,6 @@ title: Return & Refund Policy
 description: We offer a reasonable return and refund policy for any product that may be damaged or you are unsatisfied with. Please contact us if you need a refund or return of any product and we will be glad to assist.
 hero-image: /assets/images/return.jpg
 ---
-# Return & Refund Policy
 
 Our policy lasts 30 days. If 30 days have gone by since your purchase, unfortunately we can’t offer you a refund or exchange.
 
