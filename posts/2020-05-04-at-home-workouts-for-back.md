@@ -11,11 +11,6 @@ feature-image: /assets/images/uploads/back-woman.jpg
 hero-image: /assets/images/uploads/woman-back-wide.jpg
 date: 2020-05-04T15:47:13.912Z
 featured: false
-description: When working out from home you typically will not have the guidance
-  of a coach or personal trainer to help ensure that you are doing the correct
-  exercises to benefit the muscle groups you are hoping to target. In this
-  article we will try to give you some tips on workouts that you can focus on if
-  you are looking to specifically target you back muscles.
 ---
 There are many articles online that teach how to workout from home. While many of these resources at extremely helpful, they tend to lack clarity around which muscle groups you are working. When working out from home you typically will not have the guidance of a coach or personal trainer to help ensure that you are doing the correct exercises to benefit the muscle groups you are hoping to target. In this article we will try to give you some tips on workouts that you can focus on if you are looking to specifically target you back muscles. In future posts we will do the same for different groups of muscles.
 
