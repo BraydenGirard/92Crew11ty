@@ -9,9 +9,6 @@ feature-image: /assets/images/featured-post-img.jpg
 hero-image: /assets/images/why-crew-banner.jpg
 date: 2020-04-27T15:12:41.485Z
 featured: true
-description: 92 Crew Fitness was founded out of necessity. As an entrepreneur
-  when you have a problem of your own, you solve it. This is exactly how 92 Crew
-  Fitness came to be.
 ---
 ## 92Crew Fitness Background
 
