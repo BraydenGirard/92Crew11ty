@@ -22,16 +22,16 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css" media="print" onload="this.media='all'">
     
     <!-- Facebook Open Graph Meta -->
-    <meta property="og:title" content="{% if site.fb-meta-title != '' %}{{ site.fb-meta-title }}{% else %}{{ title }} | {{ site.title }}{% endif %}">
-    <meta property="og:description" content="{% if site.fb-meta-description != '' %}{{ site.fb-meta-description }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:image" content="{% if site.fb-meta-image != '' %}{{ site.fb-meta-image }}{% else %}/assets/images/about-tape.jpg{% endif %}">
-    <meta property="og:url" content="{% if site.fb-meta-url != '' %}{{ site.fb-meta-url }}{% else %}{{ site.domain }}{% endif %}"> 
+    <meta property="og:title" content="{{ title }} | {{ site.title }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:image" content="{% if feature-image and feature-image != '' %}{% else %}/assets/images/about-tape.jpg{% endif %}">
+    <meta property="og:url" content="{{ site.domain }}{{ url }}"> 
 
     <!-- Twitter Meta -->
-    <meta name="twitter:title" content="{% if site.tw-meta-title != '' %}{{ site.tw-meta-title }}{% else %}{{ title }} | {{ site.title }}{% endif %}">
-    <meta name="twitter:description" content="{% if site.tw-meta-description != '' %}{{ site.tw-meta-description }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="twitter:image" content="{% if site.tw-meta-image != '' %}{{ site.tw-meta-image }}{% else %}/assets/images/about-tape.jpg{% endif %}">
-    <meta name="twitter:card" content="{% if site.tw-meta-card != '' %}{{ site.tw-meta-card }}{% else %}summary_large_image{% endif %}">
+    <meta name="twitter:title" content="{{ title }} | {{ site.title }}">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:image" content="{% if feature-image and feature-image != '' %}{% else %}/assets/images/about-tape.jpg{% endif %}">
+    <meta name="twitter:card" content="summary_large_image">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-103782980-5">
