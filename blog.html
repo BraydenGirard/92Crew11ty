@@ -7,7 +7,7 @@ intro: |
     to help you better your fitness.
 hero-image: /assets/images/why-crew-banner.jpg
 ---
-{% for thepost in collections.post %}
+{% for thepost in collections.post | reverse %}
 {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
 {% if thecycle == 'odd' %}
 {% include latest-post.html post: thepost side: 'left' %}
