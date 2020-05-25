@@ -17,8 +17,8 @@ collections:
       - {label: "Tags", name: "tags", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Intro", name: "intro", widget: "string"}
-      - {label: "Feature Image", name: "feature-image", widget: "image" }
-      - {label: "Hero Image", name: "hero-image", widget: "image" }
+      - {label: "Feature Image (1000 x 1000)", name: "feature-image", widget: "image" }
+      - {label: "Hero Image (1920 x 624)", name: "hero-image", widget: "image" }
       - {label: "Date", name: "date", widget: "datetime" }
       - {label: "Featured", name: "featured", widget: "boolean" }
       - {label: "Body", name: "body", widget: "markdown"}
