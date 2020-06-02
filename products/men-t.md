@@ -7,5 +7,6 @@ tags: product
 small-sku: sku_HCOLbtv9TXWzs1
 medium-sku: sku_HCOKmyzH0uaMW1
 large-sku: sku_HCD76TQXpRaiil
+permalink: false
 ---
 A premium t-shirt printed directed to garmet for high quality design and long lasting material. Shirt material is a blend so soft to touch and shapes well to the body.
