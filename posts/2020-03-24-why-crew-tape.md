@@ -24,7 +24,7 @@ Whether it’s pull-ups, muscle ups, cleans, you name it, many movements in Cros
 
 ## Current Solutions - Protecting Hands for Crossfit
 
-Currently their are three popular types of protection against damaging your hands. Wearing gloves or grips, apply a one-time use tape or protector, and using athletic tape. Some people enjoy one method more than another but I will give you our opinion on how these options stack up.
+Currently there are three popular types of protection against damaging your hands. Wearing gloves or grips, apply a one-time use tape or protector, and using athletic tape. Some people enjoy one method more than another but I will give you our opinion on how these options stack up.
 
 ### Grips / Gloves
 
