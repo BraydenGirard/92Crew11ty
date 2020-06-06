@@ -6,7 +6,7 @@ intro: "No doubt being under lockdown has completely changed our daily lives.
   But as humans, we naturally find ways to adapt. Together we are overcoming the
   obstacles, one at a time. "
 feature-image: /assets/images/uploads/blog1.jpg
-hero-image: /assets/images/uploads/blog2.jpg
+hero-image: /assets/images/uploads/blog2-copy.jpg
 date: 2020-06-06T00:22:18.102Z
 featured: true
 ---
