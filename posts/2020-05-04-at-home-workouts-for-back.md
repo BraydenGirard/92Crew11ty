@@ -80,7 +80,7 @@ The face pull is a beginner level back workout that focuses on building strength
 
 ## Back Workouts without Weights
 
-If you spend most of your time at a gym or in our case a local CrossFit box, you probably don't have a ton of equipment at home. If you don't feel like spending money on resistance bands and can't afford dumbbells, your body weight can work as an excellent tool to build back strength. The following workouts do not require any equipment and can simply be done with your own body weight. 
+If you spend most of your time at a gym or in our case a local functional fitness location, you probably don't have a ton of equipment at home. If you don't feel like spending money on resistance bands and can't afford dumbbells, your body weight can work as an excellent tool to build back strength. The following workouts do not require any equipment and can simply be done with your own body weight. 
 
 ### Superman
 
