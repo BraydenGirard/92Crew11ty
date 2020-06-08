@@ -25,7 +25,7 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '4594972328002',
-        node: document.getElementById('product-component-1591638040374'),
+        node: document.getElementById('product-component-1591639042208'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -35,14 +35,10 @@
           "max-width": "calc(25% - 20px)",
           "margin-left": "20px",
           "margin-bottom": "50px"
-        },
-        "carousel-button": {
-          "display": "none"
         }
       },
       "title": {
-        "font-family": "Roboto, sans-serif",
-        "font-size": "20px"
+        "font-family": "Roboto, sans-serif"
       },
       "button": {
         "font-family": "Roboto, sans-serif",
@@ -70,8 +66,6 @@
     },
     "buttonDestination": "modal",
     "contents": {
-      "img": false,
-      "imgWithCarousel": true,
       "options": false
     },
     "text": {
