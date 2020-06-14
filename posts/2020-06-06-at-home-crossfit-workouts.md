@@ -8,7 +8,7 @@ intro: "No doubt being under lockdown has completely changed our daily lives.
 feature-image: /assets/images/uploads/blog1.jpg
 hero-image: /assets/images/uploads/blog2-copy.jpg
 date: 2020-06-06T00:22:18.102Z
-featured: true
+featured: false
 ---
 No doubt being under lockdown has completely changed our daily lives. But as humans, we naturally find ways to adapt. Together we are overcoming the obstacles, one at a time. Now that most of us are mastering the art of making homemade coffee as the coffee shops are closed, we’ve decided to take it up a notch and introduce you to at-home functional fitness workouts. We are not going to let the current circumstances come in the way of the progress we’ve been making, and neither should you! So, prepare yourself for the fat-burning and fulfilling exhaustion you used to get from your WODs, as we introduce our list of the top 4 at-home functional fitness workouts! 
 
