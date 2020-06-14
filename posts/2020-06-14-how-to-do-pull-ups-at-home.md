@@ -20,15 +20,17 @@ First, your weight highly affects the success of your pull up. That’s an obvio
 
 Second, progress takes time. Do not expect to be able to do pull ups after a couple of attempts. Rather, you will need to strengthen your muscles through intensive workouts beforehand. 
 
-Last, don’t underestimate the importance of back-related workouts. They are what makes or breaks a pull up. Also, please make sure your pull up bar is securely assembled and set up, and test it before using it for any workouts. You don’t want to be worried about falling and getting injured in the middle of your exercise. 
+Last, don’t underestimate the importance of [back-related workouts](https://92crew.com/posts/2020-05-04-at-home-workouts-for-back/). They are what makes or breaks a pull up. Also, please make sure your pull up bar is securely assembled and set up, and test it before using it for any workouts. You don’t want to be worried about falling and getting injured in the middle of your exercise. 
 
 That being said, it is now time to introduce you to some of our favorite pull up variations, as well as the techniques and tips to be successful at each type.
 
 ## Kipping Pull Ups
 
+![kipping pull up](/assets/images/uploads/female-kip.jpg)
+
 As you may have noticed, kipping pull ups look very different from strict pull ups and this is due to the transfer of energy involved to push your body up past the bar. The momentum you need to succeed at kipping pull ups comes from the legs, the back muscles and the biceps. 
 
-To perform kipping pull ups, start by firmly grabbing the bar. In case you are struggling with sweaty palms or past injuries and blisters, we recommend you use an Athletic Tape to give you a better, more comfortable grip. Once your hands are on the bar, swing your legs backward as hard as you can. This will give you the momentum that pushes you forward to pull yourself up swiftly using your arms and back. 
+To perform kipping pull ups, start by firmly grabbing the bar. In case you are struggling with sweaty palms or past injuries and blisters, we recommend you use an [Athletic Tape](https://92crew.com/posts/2020-03-24-why-crew-tape/) to give you a better, more comfortable grip. Once your hands are on the bar, swing your legs backward as hard as you can. This will give you the momentum that pushes you forward to pull yourself up swiftly using your arms and back. 
 
 The principle behind kipping pull ups is simply the transfer of the pushing force from the initial leg swing. Thus, the harder you swing back the higher the momentum is. 
 
@@ -40,7 +42,7 @@ Since kipping pull ups require a greater level of coordination, a strong core, a
 
 Additionally, it is important to note that kipping pull ups can, in no way, replace a stationary pull up. So, if you are planning to include kipping pull ups in your workout plan, be sure to also include stationary pull ups in other functional fitness workouts. 
 
-## Pull Ups Neutral Grip 
+## Pull Ups Neutral Grip
 
 Just like kipping pulls ups and regular pull ups, pull ups neutral grip is also one of the best exercises for the full body, with more focus on the upper back muscles. 
 
@@ -59,9 +61,11 @@ Many athletes, especially beginners in functional fitness, may face difficulties
 
 In general, your hands in pull ups are placed wider than your shoulder width and you use a pronated overhand grip to pull your body up with your palms facing away from you. Chin ups on the other hand require having your hands at the same width as your shoulders, and using a supinated underhand grip with your palms facing you. 
 
-These differences do not make one exercise better than the other, as each one targets specific muscles and demands a special level of strength. 
+These differences do not make one exercise better than the other, as each one targets specific muscles and demands different levels of strength. If you are feeling comfortable with both pull up and chin ups and are looking for a new challenge, why not try a [one arm chin up](http://www.therandomathlete.com/how-i-trained-for-a-one-arm-chin-up/)? Don’t be fooled, this will challenge even the more advanced functionail fitness athletes! 
 
 ## An alternative to pull ups
+
+![bent over row](/assets/images/uploads/female-bent-over-row.jpg)
 
 As much as we love pull ups and would recommend them to everyone, we know that not all athletes feel the same about them or have developed enough strength to successfully perform them. Hence why we suggest the exercises below as an alternative to pull ups. Thus, you will get to engage your upper body in workouts you actually enjoy.  
 
