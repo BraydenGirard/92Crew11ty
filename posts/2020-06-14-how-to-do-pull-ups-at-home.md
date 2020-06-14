@@ -7,8 +7,8 @@ intro: If you have ever tried doing a pull up for the first time, then you sure
   smooth until you are hanging on the bar with no where near enough strength to
   pull yourself up. This is when you get a real taste of disappointment, isn't
   it?
-feature-image: /assets/images/uploads/back-woman.jpg
-hero-image: /assets/images/uploads/back-woman.jpg
+feature-image: /assets/images/uploads/main-pull-up.jpg
+hero-image: /assets/images/uploads/banner-pull-up.jpg
 date: 2020-06-14T16:24:47.859Z
 featured: true
 ---
